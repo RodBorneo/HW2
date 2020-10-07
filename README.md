@@ -23,3 +23,7 @@ d. CHECK YOUR WORK! Reload your site: localhost:3000/movies If it’s working, g
 e. Now you can change the CSS. Changing the css changes how the view looks. In standard html, you’d say something like <p class=”hilite”> This means find the code for hilite and apply it to this element. In haml, it’s very similar: %p{:class=>”hilite”} You do not want hilite to be hardcoded in though—set an instance variable in your index method of the controller to say that the variable should be set to “hilite” or nothing. Use that instance variable in your view to change the class. If it’s nothing, then nothing will change. To insert the CSS information, paste this simple CSS into RottenPotatoes' app/assets/stylesheets/application.css file.
 
 f. CHECK YOUR WORK! Reload your site: localhost:3000/movies If it’s working, git commit then git push. Otherwise, debug!!!
+
+
+
+asdfadadweasda
